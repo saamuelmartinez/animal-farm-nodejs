@@ -40,4 +40,3 @@ app.get('/api', function(req, res){
 module.exports =  app.listen(port, () => {
   console.log(`Launching server on http://localhost:${ port }`)
 });
-
